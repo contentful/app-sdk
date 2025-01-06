@@ -14,6 +14,8 @@ export type CMAClient = {
   bulkAction: PlainClientAPI['bulkAction']
   comment: PlainClientAPI['comment']
   contentType: PlainClientAPI['contentType']
+  concept: PlainClientAPI['concept']
+  conceptScheme: PlainClientAPI['conceptScheme']
   editorInterface: PlainClientAPI['editorInterface']
   environment: Pick<PlainClientAPI['environment'], 'get'>
   environmentAlias: Pick<PlainClientAPI['environmentAlias'], 'get'>
