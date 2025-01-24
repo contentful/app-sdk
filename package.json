@@ -60,7 +60,7 @@
     "chai": "4.5.0",
     "chai-as-promised": "7.1.2",
     "cross-spawn": "7.0.6",
-    "eslint": "8.57.1",
+    "eslint": "9.18.0",
     "eslint-config-prettier": "10.0.1",
     "eslint-config-standard": "17.1.0",
     "eslint-plugin-import": "2.31.0",
