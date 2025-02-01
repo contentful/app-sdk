@@ -19,4 +19,11 @@ describe('createCMAClient()', function () {
     const client = createCMAClient(ids, { addHandler: () => {} } as any)
     expect(client).to.be.an('object')
   })
+
+  it('should have taxonomy methods', () => {
+    const client = createCMAClient({} as any, { addHandler: () => {} } as any)
+
+    expect(client.concept).to.haveOwnProperty('getMany')
+    expect(client.conceptScheme).to.haveOwnProperty('getMany')
+  })
 })
